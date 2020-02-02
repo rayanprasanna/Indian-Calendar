@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/event_back"
+    android:id="@+id/main"
+    tools:context=".sub_activity.AllEventActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/search_bar"
+        android:background="@color/colorPrimary"
+        app:theme="@style/AppTheme.Toolbar">
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_bar"
+        android:layout_margin="10dp"
+        android:scrollbars="none"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:ignore="ScrollViewSize,UselessParent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="2020 शीर्ष घटनाएँ"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:textColor="@android:color/black"
+                android:text="January"
+                tools:ignore="HardcodedText" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Jan. 26 - गणतंत्र दिवस"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/jan_1_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UnusedAttribute,UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Jan. 14 - संक्रांति"
+                    android:textColor="#000000"
+                    android:background="#fff"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/jan_2_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Jan. 15 - पोंगल"
+                    android:textColor="#000000"
+                    android:background="#fff"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/jan_3_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UnusedAttribute,UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Jan. 29 - वसंत पंचमी"
+                    android:textColor="#000000"
+                    android:background="#fff"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginVertical="10dp"
+                android:src="@drawable/jan_4_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Jan. कुंभ मेला"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/jan_5_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/jan_6_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/jan_7_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="February"
+                tools:ignore="HardcodedText" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UnusedAttribute,UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Feb. लोसार (तिब्बती नव वर्ष)"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/feb_1_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:textColor="@android:color/black"
+                android:text="March"
+                tools:ignore="HardcodedText" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Mar. 09 - होली"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/mar_1_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Mar. वाइल्डलाइफ वॉचिंग"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/mar_2_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/mar_3_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/mar_4_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="April"
+                tools:ignore="HardcodedText" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Apr. 06 - महावीर जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/apr_1_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Apr. 02 - रमा नवमी"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/apr_2_2"
+                android:layout_marginVertical="10dp"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Apr. 12 - ईस्टर"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/apr_3_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/apr_4_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/apr_5_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/apr_6_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/apr_7_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="June"
+                tools:ignore="HardcodedText" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="June 23 - रथयात्रा"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/june_1_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="July"
+                tools:ignore="HardcodedText" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="July 25 - नाग पंचमी"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/july_1_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="July 31 - ईद अल - अज़्हा"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/july_2_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/july_3_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/july_4_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="August"
+                android:layout_margin="20dp"
+                tools:ignore="HardcodedText" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Aug. 15 - स्वतंत्रता दिवस"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/aug_1_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Aug. द्रुपका तेशी"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginVertical="10dp"
+                android:src="@drawable/aug_2_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Aug. 11 - जन्माष्टमी"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/aug_3_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Aug. पटेटी (पारसी नया साल)"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/aug_4_2"
+                android:layout_marginVertical="10dp"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Aug. 30 - ओणम"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/aug_5_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Aug. नेहरू ट्रॉफी बोट रेस"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/aug_6_2"
+                android:layout_marginVertical="10dp"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Aug. 03 - रक्षा बंधन (नारी पूर्णिमा)"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/aug_7_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="October"
+                tools:ignore="HardcodedText" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Oct. 02 - गांधी जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/oct_1_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Oct. - राफ्टिंग और सफेद पानी"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginVertical="10dp"
+                android:src="@drawable/oct_2_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Oct. 25 - दशहरा"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/oct_3_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Oct. दुर्गा पूजा"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/oct_4_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:textColor="@android:color/black"
+                android:text="November"
+                tools:ignore="HardcodedText" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Oct. 29 - ईद-मिलाद-उन-नबी"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/nov_1_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nov. 30 - नानक जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/nov_2_2"
+                android:layout_marginVertical="10dp"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nov. समुद्र का मौसम"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/nov_3_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nov. पुष्कर कैमल फेयर"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/nov_4_2"
+                android:layout_marginVertical="10dp"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nov. भारत का अंतर्राष्ट्रीय फिल्म महोत्सव"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/nov_5_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/nov_6_2"
+                android:layout_marginTop="10dp"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="December"
+                android:layout_margin="20dp"
+                tools:ignore="HardcodedText" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Dec. पंछी देखना"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/dec_1_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Dec. राजस्थान में कैमल ट्रेक्स"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/image_border"
+                android:src="@drawable/dec_2"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Dec. 25 - क्रिसमस का दिन"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"
+                    android:background="#fff"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/image_border"
+                android:src="@drawable/dec_3"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />-->
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

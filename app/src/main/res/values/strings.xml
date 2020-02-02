@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Indian Calendar</string>
+    <string name="all_holiday">छुट्टी का दिन</string>
+    <string name="theme">प्रसंग</string>
+    <string name="remind">ध्यान दिलाना</string>
+    <string name="event">शीर्ष घटनाएँ</string>
+
+    <string name="no_cardetails">अपना अनुस्मारक बनाने के लिए नीचे दिए गए बटन पर क्लिक करें!</string>
+    <string name="title_activity_add_reminder">अनुस्मारक जोड़ें</string>
+    <string name="title_activity_edit_reminder">अनुस्मारक संपादित करें</string>
+    <string name="title_activity_licenses">लाइसेंस</string>
+
+    <string name="add_reminder">शीर्षक</string>
+    <string name="details">विवरण</string>
+    <string name="date">दिनांक</string>
+    <string name="time">पहर</string>
+    <string name="repeat">दोहराना</string>
+    <string name="repeat_off">बंद</string>
+    <string name="repeat_no">पुनरावृत्ति अंतराल</string>
+    <string name="repeat_type">दोहराव का प्रकार</string>
+
+    <string name="action_discard_reminder">स्मरण को त्यागें</string>
+    <string name="action_save_reminder">स्मरण बचाओ</string>
+
+    <string name="editor_activity_title_new_reminder">अनुस्मारक विवरण जोड़ें</string>
+    <string name="editor_activity_title_edit_reminder">अनुस्मारक संपादित करें</string>
+    <string name="unsaved_changes_dialog_msg">अपने परिवर्तनों को छोड़ें और संपादन छोड़ दें?</string>
+    <string name="discard">छोड़ना</string>
+
+    <string name="keep_editing">एडिटिंग करते रहें</string>
+    <string name="delete_dialog_msg">इस अनुस्मारक को हटाएं?</string>
+
+    <string name="delete">हटाना</string>
+
+    <string name="cancel">रद्द करना</string>
+    <string name="editor_delete_reminder_successful">अनुस्मारक हटा दिया गया</string>
+
+    <string name="editor_delete_reminder_failed">अनुस्मारक हटाने में त्रुटि</string>
+
+    <string name="editor_insert_reminder_successful">स्मरण बचा</string>
+
+    <string name="editor_insert_reminder_failed">अनुस्मारक सहेजने में त्रुटि</string>
+
+    <string name="editor_update_reminder_successful">अनुस्मारक अद्यतन किया गया</string>
+
+    <string name="editor_update_reminder_failed">अनुस्मारक अपडेट करने में त्रुटि</string>
+
+    <string name="reminder_title">अलार्म अनुस्मारक</string>
+</resources>

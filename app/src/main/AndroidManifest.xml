@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.universl.ryan.indiancalendar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".sub_activity.AddReminderActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".sub_activity.RemindTaskActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".sub_activity.RemindTaskActivity"
+                />
+        </activity>
+        <activity
+            android:name=".sub_activity.RemindTaskActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".sub_activity.AllEventActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="locked"/>
+        <activity android:name=".sub_activity.AllHolidayActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="locked"/>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name=".data.AlarmReminderProvider"
+            android:authorities="com.universl.ryan.indiancalendar"
+            android:exported="false" />
+
+        <service
+            android:name=".data_reminder.ReminderAlarmService"
+            android:exported="false" />
+    </application>
+
+</manifest>

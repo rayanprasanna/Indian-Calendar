@@ -1,0 +1,2269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".sub_activity.AllHolidayActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/search_bar"
+        android:background="@color/colorPrimary"
+        app:theme="@style/AppTheme.Toolbar">
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_bar"
+        android:layout_margin="10dp"
+        android:scrollbars="none"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize,UselessParent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="2020 छुट्टी का दिन"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="January"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="01 - अंग्रेजी नव वर्ष"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="02 - गुरु गोविंद सिंह जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="06 - तैलंग स्वामी जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="12 - स्वामी विवेकानंद जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#4B0082"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#4B0082"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="14 - लोहड़ी"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#666600"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#666600"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="15 - पोंगल"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="17 - विवेकानंद जयंती * संवत"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#4B0082"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#4B0082"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="23 - सुभास चंद्र बोस जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#4B0082"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#4B0082"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="26 - गणतंत्र दिवस"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#4b0082"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#4b0082"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="29 - वसंत पंचमी"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="30 - गांधी पुण्यतिथि"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#4b0082"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#4b0082"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="February"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="09 - गुरु रविदास जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="18 - महर्षि जयानंद सरस्वती जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="21 - महा शिवरात्रि"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="25 - रामकृष्ण जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="March"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="08 - हज़रत अली का जन्मदिन"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00cc00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00cc00"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="09 - छोटी होली, होलिका दहन, चैतन्य महाप्रभु जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="10 - होली"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="12 - शिवाजी जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="20 - पारसी नव वर्ष"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="23 - शहीद दिवस"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#4b0082"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#4b0082"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="25 - गुड़ी पड़वा, उगादी"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="26 - झूलेलाल जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="April"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="TooManyViews,UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="01 - बैंक की छुट्टी"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#4b0082"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#4b0082"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="02 - राम नवमी"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="06 - महावीर जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="10 - शुभ शुक्रवार"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="12 - ईस्टर"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="13 - सौर नव वर्ष, बैसाखी"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#666600"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#666600"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="14 - अंबेडकर जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#4b0082"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#4b0082"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="18 - वल्लभाचार्य जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="28 - शंकराचार्य जयंती, सूरदास जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="May"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="07 - बुद्ध पूर्णिमा, बुद्ध जयंती, रवींद्रनाथ टैगोर जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#4b0082"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#4b0082"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="22 - जमात उल-विदा"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00cc00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00cc00"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="24 - ईद अल-फितर (रमजान)"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00cc00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00cc00"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="25 - महाराणा प्रताप जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="June"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="05 - संत कबीरदास जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="23 - रथ यात्रा"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="July"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="05 - गुरु पूर्णिमा"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="27 - तुलसीदास जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="31 - ईद अल-अधा, बकरीद"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00cc00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00cc00"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="August"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="03 - राखी, रक्षा बंधन"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="11 - कृष्ण जन्माष्टमी * स्मार्टा"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="12 - कृष्ण जन्माष्टमी * इस्कॉन"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="15 - स्वतंत्रता दिवस"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#4b0082"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#4b0082"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="20 - अल-हिजरा, इस्लामिक न्यूयर"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00cc00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00cc00"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="22 - गणेश चतुर्थी"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="29 - आशूरा का दिन, मुहर्रम"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00cc00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00cc00"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="31 - ओणम"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="September"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="15 - विश्वेश्वर्य जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#4b0082"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#4b0082"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="22 - शरद विषुव"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="October"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="02 - महात्मा गांधी जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#4b0082"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#4b0082"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="17 - महाराजा अग्रसेन जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="24 - दुर्गा अष्टमी, महा नवमी"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="25 - दशहरा"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="26 - माधवाचार्य जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="29 - मिलाद-ए-नबी, ईद-ए-मिलाद"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00cc00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00cc00"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="31 - वाल्मीकि जयंती, मीरा बाई जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="November"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="04 - करवा चौथ"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="14 - नरक चतुर्दशी, दिवाली, लक्ष्मी पूजा, जवाहरलाल नेहरू जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#4b0082"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#4b0082"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="15 - गोवर्धन पूजा"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="16 - भाई दूज"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="20 - छठ पूजा"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="30 - गुरु नानक जयंती"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#660000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="December"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="25 - मेरी क्रिसमस"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#660000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
